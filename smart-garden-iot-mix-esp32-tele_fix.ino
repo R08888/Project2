@@ -1,6 +1,7 @@
 #include <Wire.h>
 #include "WiFi.h"
 #include <AsyncTelegram2.h>
+
 // Timezone definition
 #define MYTZ "CET-1CEST,M3.5.0,M10.5.0/3"
 struct tm sysTime;
@@ -14,9 +15,9 @@ X509List  certificate(telegram_cert);
 
 AsyncTelegram2 myBot(client);
 
-const char* ssid  =  "Ultima";     // SSID WiFi network
-const char* pass  =  "pribadi58";     // Password  WiFi network
-const char* token =  "5876731626:AAEctdeIKlrvB9eLV85pcXHa92yzgG3wW_w";  // Telegram token
+const char* ssid  =  "***********";     // SSID WiFi network
+const char* pass  =  "***********";     // Password  WiFi network
+const char* token =  "*****************************";  // Telegram token
 
 // Check the userid with the help of bot @JsonDumpBot or @getidsbot (work also with groups)
 // https://t.me/JsonDumpBot  or  https://t.me/getidsbot
